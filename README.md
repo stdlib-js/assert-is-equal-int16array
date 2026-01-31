@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isEqualInt16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int16array@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-equal-int16array/tags). For example,
+
+```javascript
 import isEqualInt16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int16array@v0.1.0-deno/mod.js';
 ```
 
@@ -79,7 +84,7 @@ bool = isEqualInt16Array( x, new Int16Array( [ 1, 3 ] ) );
 
 ```javascript
 import Int16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@deno/mod.js';
-import isEqualInt16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int16array@v0.1.0-deno/mod.js';
+import isEqualInt16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int16array@deno/mod.js';
 
 var x = new Int16Array( [ 1, 2, 3 ] );
 var y = new Int16Array( [ 1, 2, 3 ] );
