@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEqualInt16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int16array@esm/index.mjs';
+import isEqualInt16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int16array@v0.1.0-esm/index.mjs';
 ```
 
 #### isEqualInt16Array( v1, v2 )
@@ -84,7 +84,7 @@ bool = isEqualInt16Array( x, new Int16Array( [ 1, 3 ] ) );
 <script type="module">
 
 import Int16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@esm/index.mjs';
-import isEqualInt16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int16array@esm/index.mjs';
+import isEqualInt16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-int16array@v0.1.0-esm/index.mjs';
 
 var x = new Int16Array( [ 1, 2, 3 ] );
 var y = new Int16Array( [ 1, 2, 3 ] );
